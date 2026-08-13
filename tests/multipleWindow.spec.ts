@@ -7,6 +7,10 @@ test("Handle Multiple Windows", async({browser})=>
         const page=await context.newPage();
         await page.goto("https://testautomationpractice.blogspot.com/")
 
+        // Add these two lines here
+        console.log("PopUp count:", await page.locator("#PopUp").count());
+        console.log("PopUp visible:", await page.locator("#PopUp").isVisible());
+
         const [childWindow]=await Promise.all([page.waitForEvent('popup'),page.locator("#PopUp").click()])
 
         const allPages=context.pages()

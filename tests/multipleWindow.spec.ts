@@ -18,4 +18,5 @@ test("Handle Multiple Windows", async({browser})=>
         console.log("Title of the page",await allPages[1].title())
         await page.waitForTimeout(5000)
         allPages[0].close()
+        allPages[1].close()
     })

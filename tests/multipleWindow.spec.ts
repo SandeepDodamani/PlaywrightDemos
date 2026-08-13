@@ -13,7 +13,9 @@ test("Handle Multiple Windows", async({browser})=>
         console.log("Number of Windows: ",allPages.length)
 
         console.log("First Page URL",allPages[0].url())
+        console.log("Title of the Page",await allPages[0].title())
         console.log("First Page URL",allPages[1].url())
+        console.log("Title of the page",await allPages[1].title())
         await page.waitForTimeout(5000)
         allPages[0].close()
     })

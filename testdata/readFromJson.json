@@ -1,0 +1,22 @@
+[
+  {
+    "email": "laura.taylor123@example.com",
+    "password": "test123",
+    "credentialType": "validCredentials"
+  },
+  {
+    "email": "john.doe123@example.com",
+    "password": "password123",
+    "credentialType": "invalidCredentials"
+  },
+  {
+    "email": "mary.jones123@example.com",
+    "password": "secure123",
+    "credentialType": "invalidCredentials"
+  },
+  {
+    "email": "",
+    "password": "",
+    "credentialType": "emptyCredentials"
+  }
+]

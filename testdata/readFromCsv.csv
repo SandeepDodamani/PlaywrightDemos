@@ -1,0 +1,5 @@
+email,password,credentialType
+laura.taylor123@example.com,test123,validCredentials
+john.doe123@example.com,password123,invalidCredentials
+mary.jones123@example.com,secure123,invalidCredentials
+"","",emptyCredentials

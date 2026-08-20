@@ -5,7 +5,7 @@
 
 import {test,expect,Locator,Page,Browser,chromium} from '@playwright/test'
 
-test("Handle multiple Pages",async()=>
+test.describe("Handle multiple Pages",async()=>
 {
         const browser = await chromium.launch()
         

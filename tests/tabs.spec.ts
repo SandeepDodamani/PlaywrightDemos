@@ -17,7 +17,7 @@ test("Handle tabs", async()=>
     const pageCount=context.pages();
     console.log(pageCount.length)
 
-    console.log(await ParentPage.title())
+    console.log(await ParentPage.title("test"))
     console.log(await childLevel.title())
 
 

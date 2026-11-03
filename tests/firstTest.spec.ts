@@ -10,7 +10,7 @@ import {test,expect} from "@playwright/test"
 
 test("Verify the Title of the page",async({page})=>
 {
-    await page.goto("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login")
+    await page.goto("https://test/web/index.php/auth/login")
 
     let pageTitle=await page.title();
     console.log(pageTitle);

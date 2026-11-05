@@ -8,6 +8,7 @@ test.describe('Group1',async()=>
     })
     test("Test Case 2",async({page})=>
     {
+        //Test URL
          await page.goto("https://qadummyurl/index.htm")
     })
 

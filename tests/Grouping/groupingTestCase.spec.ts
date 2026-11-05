@@ -40,3 +40,17 @@ test.describe('Group 4',async()=>
     })
 
 })
+
+//Duplicate Code
+test.describe('Group 9',async()=>
+{
+    test("Test Case 3 & 4 & 7",async({page})=>
+    {
+        await page.goto("https://qadummyurl")
+    })
+    test("Test Case 4",async({page})=>
+    {
+        await page.goto("https://qadummyurl/web/index.php/auth/login")
+    })
+
+})

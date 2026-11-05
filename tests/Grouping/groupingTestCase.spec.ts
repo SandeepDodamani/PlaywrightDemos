@@ -15,7 +15,7 @@ test.describe('Group1',async()=>
 
 test.describe('Group2',async()=>
 {
-    test("Test Case 3",async({page})=>
+    test("Test Case 3 & 4",async({page})=>
     {
         await page.goto("https://www.saucedemo.com/")
     })

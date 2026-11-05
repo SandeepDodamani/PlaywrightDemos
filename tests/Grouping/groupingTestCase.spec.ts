@@ -4,7 +4,7 @@ test.describe('Group1',async()=>
 {
     test("Test Case 1",async({page})=>
     {
-       await page.goto("https://www.saucedemo.com/")
+       await page.goto("https://qadummyurl")
     })
     test("Test Case 2",async({page})=>
     {
